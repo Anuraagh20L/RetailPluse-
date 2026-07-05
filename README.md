@@ -91,7 +91,7 @@ RetailPulse/
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/RetailPulse.git
+git clone https://github.com/Anuraagh20L/RetailPulse.git
 ```
 
 Navigate to the project directory:
