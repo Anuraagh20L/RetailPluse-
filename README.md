@@ -122,39 +122,17 @@ Streamlit Cloud:
 
 ## 📸 Dashboard Screenshots
 
-### Execution Dashboard
+![Executive Dashboard](execution_dashboard.png)
 
-![Execution Dashboard](screenshots/execution_dashboard.png)
+![Customer Analytics](customer_analytics.png)
 
----
+![Demand Forecasting](demand_forecasting.png)
 
-### Customer Analytics
+![Inventory Optimization](inventory_optimization.png)
 
-![Customer Analytics](screenshots/customer_analytics.png)
+![Real Time Monitoring](real_time_monitoring.png)
 
----
-
-### Demand Forecasting
-
-![Demand Forecasting](screenshots/demand_forecasting.png)
-
----
-
-### Inventory Optimization
-
-![Inventory Optimization](screenshots/inventory_optimization.png)
-
----
-
-### Real-Time Monitoring
-
-![Real Time Monitoring](screenshots/real_time_monitoring.png)
-
----
-
-### Customer Churn Prediction
-
-![Churn Prediction](screenshots/churn_prediction.png)
+![Churn Prediction](churn_prediction.png)
 
 
 🔮 Future Enhancements
