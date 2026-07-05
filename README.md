@@ -124,7 +124,7 @@ Streamlit Cloud:
 
 ## Executive Dashboard
 
-![Executive Dashboard](screenshots/execution_dashboard.png)
+![Execution Dashboard](screenshots/execution_dashboard.png)
 
 ---
 
