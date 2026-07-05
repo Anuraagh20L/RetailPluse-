@@ -122,7 +122,7 @@ Streamlit Cloud:
 
 ## 📸 Dashboard Screenshots
 
-### Executive Dashboard
+### Execution Dashboard
 
 ![Execution Dashboard](screenshots/execution_dashboard.png)
 
