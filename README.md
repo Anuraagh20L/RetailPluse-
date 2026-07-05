@@ -114,9 +114,9 @@ streamlit run app.py
 
 ---
 
-## 🌐 Live Demo
+🌐 Live Demo
 
-**Streamlit Cloud:**
+Streamlit Cloud:
 
 🔗 https://retailpulse-dashboard.streamlit.app
 
@@ -133,7 +133,7 @@ Include screenshots of:
 - Customer Analytics Dashboard
 - Real-Time Monitoring Dashboard
 
-## 🔮 Future Enhancements
+🔮 Future Enhancements
 
 - Docker Deployment
 - CI/CD Pipeline
