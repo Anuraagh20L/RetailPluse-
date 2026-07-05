@@ -116,15 +116,9 @@ streamlit run app.py
 
 ## 🌐 Live Demo
 
-**Streamlit Cloud:** *(Add your deployed HTTPS URL here after deployment.)*
+**Streamlit Cloud:**
 
-Example:
-
-```
-https://retailpulse.streamlit.app
-```
-
----
+🔗 https://retailpulse-dashboard.streamlit.app
 
 ## 📸 Screenshots
 
@@ -150,10 +144,9 @@ Include screenshots of:
 - Email Alerts
 - REST API Integration
 
-## 👨‍💻 Developed By
+👨‍💻 Developed By
+  KONDURI ANURAAGH
 
-**KONDURI ANURAAGH**
-
-## 📄 License
+📄 License
 
 This project was developed for educational, research, and internship purposes.
