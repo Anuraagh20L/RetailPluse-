@@ -120,18 +120,42 @@ Streamlit Cloud:
 
 🔗 https://retailpulse-dashboard.streamlit.app
 
-## 📸 Screenshots
+## 📸 Dashboard Screenshots
 
-Include screenshots of:
+## Executive Dashboard
 
-- Dataset Overview
-- Exploratory Data Analysis
-- Customer Segmentation
-- Demand Forecasting
-- Inventory Optimization
-- Executive Dashboard
-- Customer Analytics Dashboard
-- Real-Time Monitoring Dashboard
+![Executive Dashboard](screenshots/executive_dashboard.png)
+
+---
+
+## Customer Analytics
+
+![Customer Analytics](screenshots/customer_analytics.png)
+
+---
+
+## Demand Forecasting
+
+![Demand Forecasting](screenshots/demand_forecasting.png)
+
+---
+
+## Inventory Optimization
+
+![Inventory Optimization](screenshots/inventory_optimization.png)
+
+---
+
+## Real-Time Monitoring
+
+![Real Time Monitoring](screenshots/real_time_monitoring.png)
+
+---
+
+## Customer Churn Prediction
+
+![Churn Prediction](screenshots/churn_prediction.png)
+
 
 🔮 Future Enhancements
 
@@ -145,7 +169,7 @@ Include screenshots of:
 - REST API Integration
 
 👨‍💻 Developed By
-  KONDURI ANURAAGH
+  ## KONDURI ANURAAGH
 
 📄 License
 
