@@ -1,15 +1,13 @@
-# ==========================================
+
 # DAY 1 - EDA + DATA CLEANING
 # RETAILPULSE PROJECT
-# ==========================================
 
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# ==========================================
+
 # LOAD DATASET
-# ==========================================
 
 file_path = r"ExtractedData\online_retail_II.xlsx"
 
@@ -30,9 +28,8 @@ df = pd.concat(
     ignore_index=True
 )
 
-# ==========================================
+
 # BASIC INFORMATION
-# ==========================================
 
 print("=" * 50)
 print("DATASET INFORMATION")
@@ -53,9 +50,8 @@ print(df.isnull().sum())
 print("\nDuplicate Rows:")
 print(df.duplicated().sum())
 
-# ==========================================
+
 # RENAME COLUMNS
-# ==========================================
 
 df.rename(columns={
     "Invoice": "InvoiceNo",
@@ -63,9 +59,8 @@ df.rename(columns={
     "Price": "UnitPrice"
 }, inplace=True)
 
-# ==========================================
+
 # DATA CLEANING
-# ==========================================
 
 print("\nCleaning Data...")
 
@@ -113,9 +108,8 @@ df["StockCode"]=df["StockCode"].astype(str).str.strip()
 print("\nCleaned Dataset Shape:")
 print(df.shape)
 
-# ==========================================
+
 # TOP 10 COUNTRIES BY SALES
-# ==========================================
 
 country_sales = (
     df.groupby("Country")
@@ -144,10 +138,8 @@ plt.tight_layout()
 
 plt.show()
 
-# ==========================================
-# TOP 10 PRODUCTS
-# ==========================================
 
+# TOP 10 PRODUCTS
 top_products = (
     df.groupby("Description")
     ["Quantity"]
@@ -175,9 +167,7 @@ plt.tight_layout()
 
 plt.show()
 
-# ==========================================
 # MONTHLY SALES TREND
-# ==========================================
 
 df["Month"] = (
     df["InvoiceDate"]
@@ -207,9 +197,8 @@ plt.tight_layout()
 
 plt.show()
 
-# ==========================================
+
 # OUTLIER ANALYSIS
-# ==========================================
 
 # Quantity Outliers
 plt.figure(figsize=(8,5))
@@ -253,10 +242,8 @@ axes[2].set_title("TotalPrice Outliers")
 plt.tight_layout()
 plt.show()
 
-# ==========================================
-# CORRELATION HEATMAP
-# ==========================================
 
+# CORRELATION HEATMAP
 sns.heatmap(
     df[
         [
@@ -277,10 +264,7 @@ plt.tight_layout()
 
 plt.show()
 
-# ==========================================
 # SAVE CLEANED DATASET
-# ==========================================
-
 df.to_csv(
     "cleaned_retail_data.csv",
     index=False
